@@ -24,7 +24,7 @@ export default class MiniGame extends Game {
         this.gameWon = false;
         this.gameStarted = false;
         this.spiders = [];
-        this.timer = 1500;
+        this.timer = 2000;
     }
     processInput() {
         if (this.keyListener.isKeyDown(KeyListener.KEY_SPACE)) {
@@ -53,7 +53,7 @@ export default class MiniGame extends Game {
                 const nextSpider = new Spider(this.canvas.width, this.canvas.height);
                 this.spiders.push(nextSpider);
             }
-            this.timer = 1500;
+            this.timer = 2000;
         }
         this.player.update(delta);
         if (this.gameStarted) {

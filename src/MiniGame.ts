@@ -36,7 +36,7 @@ export default class MiniGame extends Game {
     this.gameWon = false;
     this.gameStarted = false;
     this.spiders = [];
-    this.timer = 1500;
+    this.timer = 2000;
   }
 
   /**
@@ -76,7 +76,7 @@ export default class MiniGame extends Game {
         const nextSpider: Spider = new Spider(this.canvas.width, this.canvas.height);
         this.spiders.push(nextSpider);
       }
-      this.timer = 1500;
+      this.timer = 2000;
     }
     this.player.update(delta);
 
