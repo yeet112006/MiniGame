@@ -72,7 +72,7 @@ export default class MiniGame extends Game {
   public update(delta: number): boolean {
     this.timer -= delta;
     if (this.timer <= 0) {
-      for (let i: number = 0; i < 5; i++) {
+      for (let i: number = 0; i < 4; i++) {
         const nextSpider: Spider = new Spider(this.canvas.width, this.canvas.height);
         this.spiders.push(nextSpider);
       }
