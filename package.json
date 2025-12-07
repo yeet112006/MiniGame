@@ -1,0 +1,23 @@
+{
+  "name": "oop-team12",
+  "version": "2025.1.0",
+  "repository": "git@github.com/HZ-ICT1-2526/oop-team12.git",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch "
+  },
+  "devDependencies": {
+    "@eslint/js": "9.37.0",
+    "@stylistic/eslint-plugin": "5.4.0",
+    "eslint": "9.37.0",
+    "eslint-plugin-jsdoc": "60.8.3",
+    "typescript": "5.9",
+    "typescript-eslint": "8.46.0"
+  },
+  "dependencies": {
+    "lint": "^0.8.19"
+  }
+}
